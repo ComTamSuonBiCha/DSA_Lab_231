@@ -1,0 +1,102 @@
+01 - Print array
+
+Implement function 
+void printArray(int n){}
+to print 0, 1, 2, ..., n (n is positive integer and has no space at the end).
+Please note that you can't using key work for, while, goto (even in variable names, comment).
+For this exercise, we have #include <iostream> and using namespace std;
+
+
+
+Base code:
+void printArray(int n)
+{
+    /*  
+     * STUDENT ANSWER
+     */
+}
+
+02 - Print pattern
+Given a positive number, print following a pattern without using any loop.
+Input: n = 16
+Output: 16, 11, 6, 1, -4, 1, 6, 11, 16 (has no space at the end)
+
+Input: n = 10
+Output: 10, 5, 0, 5, 10 (has no space at the end)
+We basically first reduce 5 one by one until we reach a negative or 0. After we reach 0 or negative, we one add 5 until we reach n.
+Note: Please note that you can't using key work for, while, goto (even in variable names, comment).
+You can implement other recursive functions if needed.
+For this exercise, we have #include <iostream> and using namespace std;
+
+
+Base code:
+void printPattern(int n) 
+{ 
+    /*  
+     * STUDENT ANSWER
+     */
+}
+
+
+
+
+
+
+03 - Find max value
+
+Implement function
+int findMax(int* arr, int length){}
+to find the largest element using recursion (with length is the number of elements in integer array arr).
+Please note that you can't using key work for, while, goto (even in variable names, comment).
+For this exercise, we have #include <iostream> and using namespace std;
+
+Base code:
+int findMax(int* arr, int length)
+{
+    /*  
+     * STUDENT ANSWER
+     */
+}
+Example testcase:
+
+
+
+Reverse Sentence
+Given a string s representing a sentence consisting only of a-z and A-Z and space character.
+Your task is to implement a function with following prototype:
+string reverseSentence(string s); 
+The function returns the reverse sentence of sentence s.
+The testcases ensure that there is only one space character between two adjacent words, and the sentences do not begin or end with any space characters.
+
+Note: 
+- The iostream library has been used and namespace std is being used. No other libraries are allowed.
+- Using loop keywords (for, while, do) are not allowed, even in comments and variable names.
+- You can write helper functions.
+
+Base code:
+string reverseSentence(string s) {
+    // STUDENT ANSWER
+}
+
+String's length
+Given a string, implement function
+int strLen(char* str){}
+to calculate length of the string using recursion.
+Please note that you can't using key work for, while, goto (even in variable names, comment).
+For this exercise, we have #include <iostream> and using namespace std;
+
+
+
+Base code:
+int strLen(char* str)     
+{ 
+    /*  
+     * STUDENT ANSWER
+     */
+}
+
+
+
+
+
+
